@@ -367,7 +367,7 @@ form textarea{
 
 /* navbar */
 header{
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 0;
     right: 0;
@@ -467,8 +467,10 @@ header{
     }
     .home-img{
         order: initial;
-        right: 45px;
+        right: 55px;
         top: 70px;
+        height: 350px;
+        width: 350px;
     }
     .home-text{
         grid-column: 1/3;
@@ -476,7 +478,7 @@ header{
         margin-top: 135px;
     }
     .social{
-        margin-left: 15px;
+        margin-left: 0px;
         margin-top: 180px;
     }
 .about-container{
@@ -491,7 +493,7 @@ header{
 }
 .about-img img{
     height: 335px;
-    width: 455px;
+    width: 355px;
 }
 .skills-container{
     grid-template-columns: 1fr;
@@ -502,7 +504,8 @@ header{
     position: relative;
     top: 30%;
     left: 0px;
-    width: 100%;
+    height: 245px;
+    width: 400px;
     margin-bottom: 20px;
 }
 .skills-img{
@@ -514,9 +517,13 @@ header{
     justify-content: center;
     align-items: center;
 }
+.services-box{
+    width: 195px;
+    height: 195px;
+}
 .services-content{
     display: grid;
-    grid-template-columns: repeat(2, minmax(100%, 10px));
+    grid-template-columns: repeat(2, minmax(50%, 10px));
     right: 10px;
 }
 .skills{
@@ -532,7 +539,7 @@ header{
     margin-left: 25%;
 }
 .bars{
-    width: 440px;
+    width: 380px;
 }
 .footer{
     display: flex;
