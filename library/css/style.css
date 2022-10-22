@@ -467,15 +467,21 @@ header{
     }
     .home-img{
         order: initial;
-        right: 55px;
+        right: 75px;
         top: 55px;
         height: 350px;
-        width: 350px;
+        width: 100%;
     }
     .home-text{
         grid-column: 1/3;
         /* padding-left: 1.4rem; */
         margin-top: 135px;
+    }
+    .home-text h2{
+        width: 100%;
+    }
+    .home-text p{
+        width: 100%;
     }
     .social{
         margin-left: 0px;
@@ -487,13 +493,20 @@ header{
     margin-top: 2rem;
 }
 .about-img{
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
 }
 .about-img img{
     height: 335px;
-    width: 380px;
+    width: 100%;
+}
+.about-text p{
+    width: 100%;
+}
+.information .info-box{
+    width: 100%;
 }
 .skills-container{
     grid-template-columns: 1fr;
@@ -505,10 +518,11 @@ header{
     top: 30%;
     left: 0px;
     height: 245px;
-    width: 400px;
+    width: 100%;
     margin-bottom: 20px;
 }
 .skills-img{
+    width: 100%;
     padding-top: 2rem;
     display: flex;
     justify-content: center;
@@ -518,13 +532,14 @@ header{
     align-items: center;
 }
 .services-box{
-    width: 195px;
+    width: 100%;
     height: 195px;
+    padding: 5px;
 }
 .services-content{
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, minmax(50%, 10px));
-    right: 10px;
+    grid-template-columns: repeat(2, minmax(48%, 10px));
 }
 .skills{
     margin-top: 10px;
@@ -532,14 +547,20 @@ header{
 .contact{
     width: 100%;
 }
+.contact-form{
+    width: 100%;
+}
 .contact-form form{
-    width: 380px;
+    width: 100%;
 }
 .contact-button{
     margin-left: 25%;
 }
 .bars{
-    width: 380px;
+    width: 100%;
+}
+.bars-box{
+    width: 100%;
 }
 .footer{
     width: 100%;  
